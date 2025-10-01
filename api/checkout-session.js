@@ -1,0 +1,1 @@
+export default async function handler(req,res){const sid=req.query.session_id;if(sid==='demo')return res.status(200).json({customer_email:null,plan_label:'Demo Plan'});return res.status(400).json({error:'Missing or invalid session_id'})}

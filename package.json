@@ -1,0 +1,12 @@
+{
+  "name": "meal-portal-vercel-fixed",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}

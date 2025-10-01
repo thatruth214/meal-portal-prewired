@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',async()=>{await __auth.requireLogin();document.getElementById('planBadge').textContent='Current plan: BASIC'})

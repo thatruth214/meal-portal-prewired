@@ -1,0 +1,1 @@
+export default async function handler(req,res){const origin=process.env.SITE_URL||`https://${req.headers.host}`;return res.status(200).json({url:origin+'/portal'})}
